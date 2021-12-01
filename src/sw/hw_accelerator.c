@@ -10,6 +10,15 @@
 #define CMD_COMPUTE 1
 #define CMD_WRITE   2
 
+extern uint32_t N[32],		// modulus
+                e[32],		// encryption exponent
+                e_len,		// encryption exponent length
+                d[32],		// decryption exponent
+                d_len,		// decryption exponent length
+                M[32],		// message
+                R_1024[32],	// 2^1024 mod N
+                R2_1024[32];// (2^1024)^2 mod N
+
 void init_HW_access(void)
 {
 	interface_init();
@@ -40,7 +49,7 @@ void example_HW_accelerator(void)
 	xil_printf("Sending read command\n\r");
 START_TIMING
 	send_cmd_to_hw(CMD_READ);
-	send_data_to_hw(src);
+	send_data_to_hw(M);
 	while(!is_done());
 STOP_TIMING
 

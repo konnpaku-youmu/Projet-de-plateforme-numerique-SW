@@ -1,0 +1,44 @@
+15:18:02 **** Incremental Build of configuration Debug for project sw_design ****
+make pre-build main-build 
+make[1]: Entering directory '/users/students/r0822930/Projects/DDP/sw_project/project_sw/sw_design/Debug'
+a9-linaro-pre-build-step
+ 
+make[1]: Nothing to be done for 'main-build'.
+make[1]: Leaving directory '/users/students/r0822930/Projects/DDP/sw_project/project_sw/sw_design/Debug'
+15:18:07 **** Incremental Build of configuration Debug for project sw_design ****
+make pre-build main-build 
+make[1]: Entering directory '/users/students/r0822930/Projects/DDP/sw_project/project_sw/sw_design/Debug'
+a9-linaro-pre-build-step
+ 
+Building file: ../src/hw_accelerator.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hw_accelerator.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/hw_accelerator.d" -MT"src/hw_accelerator.o" -o "src/hw_accelerator.o" "../src/hw_accelerator.c"
+../src/hw_accelerator.c: In function 'example_HW_accelerator':
+../src/hw_accelerator.c:43:18: error: 'M' undeclared (first use in this function)
+  send_data_to_hw(M);
+                  ^
+../src/hw_accelerator.c:43:18: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [src/subdir.mk:29: src/hw_accelerator.o] Error 1
+make[1]: Leaving directory '/users/students/r0822930/Projects/DDP/sw_project/project_sw/sw_design/Debug'
+15:18:26 **** Incremental Build of configuration Debug for project sw_design ****
+make pre-build main-build 
+make[1]: Entering directory '/users/students/r0822930/Projects/DDP/sw_project/project_sw/sw_design/Debug'
+a9-linaro-pre-build-step
+ 
+Building file: ../src/hw_accelerator.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hw_accelerator.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/hw_accelerator.d" -MT"src/hw_accelerator.o" -o "src/hw_accelerator.o" "../src/hw_accelerator.c"
+Finished building: ../src/hw_accelerator.c
+ 
+Building target: sw_design.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw_bsp/ps7_cortexa9_0/lib -o "sw_design.elf"  ./src/platform/interface.o ./src/platform/platform.o  ./src/hw_accelerator.o ./src/main.o ./src/testvector.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: sw_design.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size sw_design.elf  |tee "sw_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76252	   3352	  23344	 102948	  19224	sw_design.elf
+Finished building: sw_design.elf.size
+ 
+make[1]: Leaving directory '/users/students/r0822930/Projects/DDP/sw_project/project_sw/sw_design/Debug'
