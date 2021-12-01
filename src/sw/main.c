@@ -10,8 +10,8 @@ extern uint32_t N[32],		// modulus
                 d[32],		// decryption exponent
                 d_len,		// decryption exponent length
                 M[32],		// message
-                R_1024[32],	// 2^1024 mod N
-                R2_1024[32];// (2^1024)^2 mod N
+                R_N[32],	// 2^1024 mod N
+                R2_N[32];// (2^1024)^2 mod N
 
 int main()
 {
