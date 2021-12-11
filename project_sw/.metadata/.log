@@ -1,27 +1,27 @@
-!SESSION 2021-12-01 23:44:11.687 -----------------------------------------------
+!SESSION 2021-12-11 01:06:53.880 -----------------------------------------------
 eclipse.buildId=2018.2
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
-Framework arguments:  -application com.xilinx.sdk.cmdline.service 42609
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -application com.xilinx.sdk.cmdline.service 42609 -data /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw
+Framework arguments:  -application com.xilinx.sdk.cmdline.service 46731
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -application com.xilinx.sdk.cmdline.service 46731 -data /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:12.507
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:54.781
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-10
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.164
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:56.856
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, ]. Thread: Thread-10
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.855
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.555
 !MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.860
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.563
 !MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.867
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.575
 !MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.876
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.591
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, {"Interface_Cell_ARCACHE": {"hier_name": "Interface_Cell_ARCACHE",
 "type": "xlconstant",
 "version": "1.1",
@@ -274,10 +274,10 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -application com.xilinx.
 },
 }]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.880
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.596
 !MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:14.886
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.606
 !MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_1": {"name": "freertos10_xilinx",
 "version": "1.1",
 "desc": "FreeRTOS is a market leading open source RTOS",
@@ -310,58 +310,58 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -application com.xilinx.
 },
 }]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.085
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.826
 !MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -sw hw_bsp -dir /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp -processor ps7_cortexa9_0 -os standalone], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.101
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.843
 !MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -sw hw_bsp -dir /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp -processor ps7_cortexa9_0 -os standalone], Result: [null, ]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.136
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.849
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.138
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.850
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Result: [null, ]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.138
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.850
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.139
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.851
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.7",
 }]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.139
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:57.851
 !MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp], Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.257
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.008
 !MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp], Result: [null, ]. Thread: Thread-12
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.282
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.034
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.283
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.035
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.283
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.035
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.284
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.037
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.7",
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.286
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.039
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.286
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.040
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.286
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.040
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.294
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.048
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"peripheral_tests": {"userdefname": "Peripheral Tests",
 "description": "Simple test routines for all peripherals in the hardware.",
 "supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
@@ -601,109 +601,109 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.296
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.052
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.297
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.054
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.298
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.054
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.299
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.055
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.7",
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.299
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.056
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.300
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.057
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.300
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.057
 !MESSAGE XSCT Command: [::hsi::utils::opensw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.300
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.058
 !MESSAGE XSCT command with result: [::hsi::utils::opensw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.301
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.058
 !MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -os standalone -processor ps7_cortexa9_0 -app openamp_echo_test -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -arch {}], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.303
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -os standalone -processor ps7_cortexa9_0 -app openamp_echo_test -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -arch {}], Result: [{Format=This application requires OpenAMP and Libmetal libraries in the Board Support Package., Time=1638398655303, Code=1}, ]. Thread: Thread-20
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.062
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -os standalone -processor ps7_cortexa9_0 -app openamp_echo_test -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -arch {}], Result: [{Format=This application requires OpenAMP and Libmetal libraries in the Board Support Package., Time=1639181218061, Code=1}, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.303
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.062
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.304
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.064
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.304
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.064
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.305
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.065
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.7",
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.305
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.065
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.305
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.066
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.306
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.066
 !MESSAGE XSCT Command: [::hsi::utils::opensw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.306
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.066
 !MESSAGE XSCT command with result: [::hsi::utils::opensw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.306
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.067
 !MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -arch {}], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.308
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.070
 !MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -arch {}], Result: [null, 1]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.317
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.074
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.318
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.076
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.318
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.076
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.319
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.077
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.7",
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.820
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.773
 !MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.822
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.774
 !MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.822
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.775
 !MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.823
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.777
 !MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {}]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.823
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.777
 !MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf ps7_cortexa9_0], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.824
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.778
 !MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf ps7_cortexa9_0], Result: [null, Interface_Cell_axi_dma_0 Interface_Cell_command_interface_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.825
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.779
 !MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.829
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.783
 !MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"Interface_Cell_axi_dma_0": {"name": "axidma",
 "ver": "9.7",
 },
@@ -814,10 +814,10 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.830
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.784
 !MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.891
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.873
 !MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, {"Interface_Cell_ARCACHE": {"version": "1.1",
 "driver_info": {"generic": {"name": "generic",
 "version": "2.0",
@@ -1278,68 +1278,56 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.894
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.875
 !MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.895
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.877
 !MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.895
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.877
 !MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.896
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.878
 !MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {}]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.897
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.879
 !MESSAGE XSCT Command: [::hsi::utils::closesw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.897
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.880
 !MESSAGE XSCT command with result: [::hsi::utils::closesw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.927
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.943
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.929
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.945
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss ], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.929
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.945
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.930
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.946
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.7",
 }]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.931
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.946
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.931
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.947
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.931
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.947
 !MESSAGE XSCT Command: [::hsi::utils::opensw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.932
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.947
 !MESSAGE XSCT command with result: [::hsi::utils::opensw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.932
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.947
 !MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/sw_design/src], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2021-12-01 23:44:15.951
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-11 01:06:58.974
 !MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_platform/system.hdf -sw /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/hw_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir /home/yz/Projects/Digital_Platform_Design/design_package/sw_project/project_sw/sw_design/src], Result: [null, ]. Thread: Thread-20
 
-!ENTRY org.eclipse.core.resources 2 10035 2021-12-01 23:44:16.226
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-11 01:06:59.349
 !MESSAGE The workspace will exit with unsaved changes in this session.
-
-!ENTRY org.eclipse.core.jobs 4 2 2021-12-01 23:44:16.264
-!MESSAGE An internal error occurred during: "C/C++ Indexer".
-!STACK 0
-java.lang.NullPointerException
-	at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:349)
-	at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:267)
-	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1439)
-	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1418)
-	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1403)
-	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:162)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

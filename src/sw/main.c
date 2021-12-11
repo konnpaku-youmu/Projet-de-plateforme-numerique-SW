@@ -26,13 +26,10 @@ STOP_TIMING
 
 	xil_printf("If the FPGA is not programmed, the program will stuck here!\n\r");
 
-
     init_HW_access();
 	xil_printf("It did not stuck and HW is initialized!\n\r");
 
-
-    example_HW_accelerator();
-
+    perform_RSA();
 
     xil_printf("End\n\r");
 

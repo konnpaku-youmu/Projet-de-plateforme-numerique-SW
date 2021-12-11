@@ -49,7 +49,7 @@ inline void read_data_from_hw(uint32_t* data_addr)
 void print_array_contents(uint32_t* src)
 {
     int i;
-    for (i=32-4; i>=0; i-=4)
-        xil_printf("%08x %08x %08x %08x\n\r",
-            src[i+3], src[i+2], src[i+1], src[i]);
+    for (i=32-8; i>=0; i-=8)
+        xil_printf("%08x %08x %08x %08x %08x %08x %08x %08x\n\r",
+        		src[i+7], src[i+6], src[i+5], src[i+4], src[i+3], src[i+2], src[i+1], src[i]);
 }
